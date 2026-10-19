@@ -1,18 +1,24 @@
-# Roblox Raid Game
+# Base Raid Showdown
 
-This Roblox script creates a raid game where players need to destroy electric boxes to open gates and doors, and destroy the generator to spread fire across the base. The game includes scripts for electric box destruction, gate and door management, and generator destruction.
+Base Raid Showdown is a Roblox game where players can raid bases by destroying electric boxes to open gates and doors. The base contains a generator; if destroyed, it will spread fire across the base, creating a challenging and dynamic gameplay experience.
 
 ## Install
 
-1. Download the scripts from the GitHub repository.
-2. Open your Roblox Studio project.
-3. Insert the scripts into the ServerScriptService.
+1. Open Roblox Studio.
+2. Create a new Baseplate or open an existing game.
+3. In the Explorer, navigate to ServerScriptService.
+4. Right-click on ServerScriptService and select Insert Object > Script.
+5. Name the script `BaseGenerator.server.lua`.
+6. Copy and paste the contents of the `BaseGenerator.server.lua` script into the new script.
+7. Repeat steps 4-6 for the `ElectricBoxDestruction.server.lua`, `GateAndDoorManager.server.lua`, and `GeneratorDestruction.server.lua` scripts.
 
 ## Use
 
-1. Place the scripts in the ServerScriptService.
-2. Ensure the electric boxes, gates, doors, and generator are named correctly in the workspace.
-3. Play the game and start raiding enemy bases!
+1. Start the game in Roblox Studio.
+2. Players will see the base with electric boxes, gates, doors, and a generator.
+3. To raid the base, players need to destroy the electric boxes by clicking on them.
+4. After all electric boxes are destroyed, the gates and doors will open.
+5. Players can then destroy the generator by clicking on it, which will spread fire across the base.
 
 ---
 
